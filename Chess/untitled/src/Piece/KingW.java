@@ -9,7 +9,7 @@ public class KingW extends Piece{
     public KingW(int x, int y) throws IOException {
         super(x, y);
         image = ImageIO.read(getClass().getResource("icons/w_king.png"));
-        id = 2;
+        id = 1;
     }
 
     public ArrayList<int[]> possibleMoves(int[][] board) {
