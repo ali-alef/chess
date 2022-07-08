@@ -9,7 +9,7 @@ public class QueenW extends Piece{
     public QueenW(int x, int y) throws IOException {
         super(x, y);
         image = ImageIO.read(getClass().getResource("icons/w_queen.png"));
-        id = 1;
+        id = 2;
     }
 
     public ArrayList<int[]> possibleMoves(int[][] board) {
