@@ -68,6 +68,8 @@ public class Menu {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        
+        frame.dispose();
     }
 
     private void addTwoPlayBt(JPanel panel){
@@ -97,6 +99,7 @@ public class Menu {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        frame.dispose();
     }
 
     private void addSavedGameBt(JPanel panel){
